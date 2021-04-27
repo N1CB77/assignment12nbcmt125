@@ -1,0 +1,257 @@
+body{
+    
+    background-image:url(https://media0.giphy.com/media/xTiTniGKFK0d7kLcje/giphy.gif);
+    background-size:100%;
+    
+}
+
+h1{
+    text-align: center;
+ color: white;
+ text-shadow: 2px 2px black;
+ margin-left: 180px;
+ font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.head{
+    width:120px;
+    height:130px;
+    background-color: #AA0557;
+    margin-left: 80px;
+    border: 1px solid blue;
+    margin-top: 70px;
+}
+
+
+
+.neck{
+    position: absolute;
+    height:40px;
+    width: 40px;
+    background-color: #DF6E41;
+    border: 1px solid fuchsia;
+    margin-left: 120px;
+    margin-top:-1px;
+    
+}
+
+
+.bod{
+    position: absolute;
+    height:300px;
+    width:200px;
+    background-color: #EBE733;
+    margin-left: 40px;
+    margin-top: 41px;
+    border: 1px solid red;
+    
+}
+
+.legone{
+    height:130px;
+    width:60px;
+    background-color: #AA0557;
+    margin-left: 40px;
+    margin-top: 340px;
+    border: 1px solid blue;
+}
+
+
+.legtwo{
+    height:130px;
+    width:60px;
+    background-color: #DF6E41;
+    margin-left: 180px;
+    margin-top: -133px;
+    border: 1px solid blue;
+
+}
+
+
+.armone{
+    position: absolute;
+    width:170px;
+    height:40px;
+    background-color: #AA0557;
+    border: 1px solid red;
+  margin-left: 100px;
+  margin-top: -300px;
+animation-name:turnn;
+ animation-iteration-count: infinite;
+ animation-duration: 1s;
+ z-index: 1;
+
+
+}
+
+@keyframes turnn{
+     0%{
+         transform: translateY(-40px)
+         rotateZ(-45deg);
+     }
+
+     50%{
+         transform: translateY(0px)
+         rotateZ(45deg);
+     }
+
+     100%{
+         transform: translateY(-40px) rotateZ(-45deg);
+     }
+
+    }
+.armtwo{
+    position: absolute;
+    width:170px;
+    height:40px;
+    background-color: #DF6E41;
+  margin-left: 200px;
+  margin-top: -300px;
+  border: 1px solid red;
+  animation-name: turnnn;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  z-index: -1;
+  transform: rotateZ(360deg);
+  
+}
+
+@keyframes turnnn{
+    0%{
+        transform: translateY(-40px)
+        rotateZ(-45deg);
+    }
+
+    50%{
+        transform: translateY(0px)
+        rotateZ(45deg);
+    }
+
+    100%{
+        transform: translateY(-40px) rotateZ(-45deg);
+    }
+
+   }
+
+
+
+.tot{
+    position: absolute;
+    border: 1px solid green;
+    height:700px;
+    width: 900px;
+    margin-left: 280px;
+    background-color: white;
+    z-index: 1;
+}
+
+.leye{
+    position: absolute;
+    border-radius: 50%;
+    background-color: gainsboro;
+    height:20px;
+    width:20px;
+    margin-top: -560px;
+   margin-left: 100px;
+}
+
+.reye{
+    border-radius: 50%;
+    background-color: gainsboro;
+    height:20px;
+    width:20px;
+   margin-top: -560px;
+   margin-left: 160px;
+    
+}
+
+.mout{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 25px;
+    height:40px;
+    width:70px;
+    background-color: gainsboro;
+    margin-top: 15px;
+    margin-left: 106px;
+}
+
+
+
+.movey{
+    height:700px;
+    width: 400px;
+    
+    margin-left: 300px;
+    transition: transform 0.1s ease ;
+    transform: translateX(0px);
+    
+
+}
+
+.movey:hover{
+    transform: translateX(-100px);
+
+}
+
+audio{
+    margin-left: 600px;
+}
+
+h2{
+    margin-left: 400px;
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+
+.foot1{
+    position: absolute;
+    height:20px;
+    width:60px;
+    background-color:#DF6E41 ;
+    border: 1px solid blue;
+    margin-top: 467px;
+    margin-left: 238px;
+    z-index: -1;
+    animation-name: jj;
+    animation-iteration-count: infinite;
+  animation-duration: 1s;
+    
+}
+
+
+@keyframes jj{
+    0%{
+        transform: translateY(-7px)
+        rotateZ(0deg);
+    }
+
+    50%{
+        transform: translateY(0px)
+        rotateZ(10deg);
+    }
+
+    100%{
+        transform: translateY(-10px) rotateZ(0deg);
+    }
+
+   }
+
+   .foot2{
+    position: absolute;
+    height:20px;
+    width:60px;
+    background-color:#AA0557 ;
+    border: 1px solid blue;
+    margin-top: 467px;
+    margin-left: 90px;
+    z-index: -1;
+    animation-name: jj;
+    animation-iteration-count: infinite;
+  animation-duration: 1s;
+
+   }
